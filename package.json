@@ -1,0 +1,27 @@
+{
+  "name": "minecraft-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that displays Minecraft server status",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "minecraft",
+    "server",
+    "status"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.5.0",
+    "node-fetch": "^3.3.1"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
